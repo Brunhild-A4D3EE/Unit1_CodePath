@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E762C4DF25ACE55A00CF976 /* Pods_Unit1_CodePath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE2345A82A9679E8E3F2EAD /* Pods_Unit1_CodePath.framework */; };
+		B4594FC426FEE31800AF2EBE /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = B4594FC326FEE31800AF2EBE /* AlamofireImage */; };
 		B46D425E26FEC87E00135737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D425D26FEC87E00135737 /* AppDelegate.swift */; };
 		B46D426026FEC87E00135737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D425F26FEC87E00135737 /* SceneDelegate.swift */; };
 		B46D426226FEC87E00135737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D426126FEC87E00135737 /* ViewController.swift */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6459EE5AF81FA44F7E923EAC /* Pods-Unit1_CodePath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1_CodePath.debug.xcconfig"; path = "Target Support Files/Pods-Unit1_CodePath/Pods-Unit1_CodePath.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE2345A82A9679E8E3F2EAD /* Pods_Unit1_CodePath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unit1_CodePath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F72E702448EA6C039EB69 /* Pods-Unit1_CodePath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1_CodePath.release.xcconfig"; path = "Target Support Files/Pods-Unit1_CodePath/Pods-Unit1_CodePath.release.xcconfig"; sourceTree = "<group>"; };
 		B46D425A26FEC87E00135737 /* Unit1_CodePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unit1_CodePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46D425D26FEC87E00135737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46D425F26FEC87E00135737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +38,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4594FC426FEE31800AF2EBE /* AlamofireImage in Frameworks */,
+				6E762C4DF25ACE55A00CF976 /* Pods_Unit1_CodePath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553AC69CEB70D45445C0D628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE2345A82A9679E8E3F2EAD /* Pods_Unit1_CodePath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91C36BAB9D4D1DAC7F6054C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6459EE5AF81FA44F7E923EAC /* Pods-Unit1_CodePath.debug.xcconfig */,
+				A74F72E702448EA6C039EB69 /* Pods-Unit1_CodePath.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B46D425126FEC87E00135737 = {
 			isa = PBXGroup;
 			children = (
 				B46D425C26FEC87E00135737 /* Unit1_CodePath */,
 				B46D425B26FEC87E00135737 /* Products */,
+				91C36BAB9D4D1DAC7F6054C9 /* Pods */,
+				553AC69CEB70D45445C0D628 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,15 +104,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B46D426E26FEC87F00135737 /* Build configuration list for PBXNativeTarget "Unit1_CodePath" */;
 			buildPhases = (
+				ECBCF32401892A61212AB8CE /* [CP] Check Pods Manifest.lock */,
 				B46D425626FEC87E00135737 /* Sources */,
 				B46D425726FEC87E00135737 /* Frameworks */,
 				B46D425826FEC87E00135737 /* Resources */,
+				0E005AB2A3601137A83D2697 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Unit1_CodePath;
+			packageProductDependencies = (
+				B4594FC326FEE31800AF2EBE /* AlamofireImage */,
+			);
 			productName = Unit1_CodePath;
 			productReference = B46D425A26FEC87E00135737 /* Unit1_CodePath.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +145,9 @@
 				Base,
 			);
 			mainGroup = B46D425126FEC87E00135737;
+			packageReferences = (
+				B4594FC226FEE31800AF2EBE /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = B46D425B26FEC87E00135737 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,6 +169,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E005AB2A3601137A83D2697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unit1_CodePath/Pods-Unit1_CodePath-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unit1_CodePath/Pods-Unit1_CodePath-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unit1_CodePath/Pods-Unit1_CodePath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBCF32401892A61212AB8CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unit1_CodePath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B46D425626FEC87E00135737 /* Sources */ = {
@@ -287,6 +364,7 @@
 		};
 		B46D426F26FEC87F00135737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6459EE5AF81FA44F7E923EAC /* Pods-Unit1_CodePath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +384,7 @@
 		};
 		B46D427026FEC87F00135737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74F72E702448EA6C039EB69 /* Pods-Unit1_CodePath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4594FC226FEE31800AF2EBE /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4594FC326FEE31800AF2EBE /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4594FC226FEE31800AF2EBE /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B46D425226FEC87E00135737 /* Project object */;
 }
