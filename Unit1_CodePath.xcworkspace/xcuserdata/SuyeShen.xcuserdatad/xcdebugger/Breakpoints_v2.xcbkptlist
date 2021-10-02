@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9A7F8F81-A139-475E-B313-E27F7F9C3E71"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A7561BD-0AF6-49B4-9882-8F5985F54244"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Unit1_CodePath/MovieDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "2A7561BD-0AF6-49B4-9882-8F5985F54244 - ebc8f9b03d5d3c26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unit1_CodePath.MovieDetailsViewController.__deallocating_deinit"
+                  moduleName = "Unit1_CodePath"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SuyeShen/Desktop/CodePath%20iOS/Unit1_CodePath/Unit1_CodePath/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2A7561BD-0AF6-49B4-9882-8F5985F54244 - d4db39584f7c94fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unit1_CodePath.MovieDetailsViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Unit1_CodePath.MovieDetailsViewController"
+                  moduleName = "Unit1_CodePath"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SuyeShen/Desktop/CodePath%20iOS/Unit1_CodePath/Unit1_CodePath/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2A7561BD-0AF6-49B4-9882-8F5985F54244 - c6845787c5f71a6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unit1_CodePath.MovieDetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Unit1_CodePath.MovieDetailsViewController"
+                  moduleName = "Unit1_CodePath"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SuyeShen/Desktop/CodePath%20iOS/Unit1_CodePath/Unit1_CodePath/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "2A7561BD-0AF6-49B4-9882-8F5985F54244 - 5da030131a13ac85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unit1_CodePath.MovieDetailsViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Unit1_CodePath.MovieDetailsViewController&gt;"
+                  moduleName = "Unit1_CodePath"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SuyeShen/Desktop/CodePath%20iOS/Unit1_CodePath/Unit1_CodePath/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2A7561BD-0AF6-49B4-9882-8F5985F54244 - 59657dd271ebc9ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unit1_CodePath.MovieDetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Unit1_CodePath.MovieDetailsViewController&gt;"
+                  moduleName = "Unit1_CodePath"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SuyeShen/Desktop/CodePath%20iOS/Unit1_CodePath/Unit1_CodePath/MovieDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "221">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
